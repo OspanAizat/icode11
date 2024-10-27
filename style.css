@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #a7ccd863;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(233, 108, 224, 0.1);
+}
+.orlog{
+    text-align: center;
+}
+.next{
+    width: 90px;
+    height: 40px;
+    
+    background-color: rgba(39, 111, 220, 0.86);
+    color:white;
+    border-radius: 6px;
+   
+    
+}
+.texts {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texts h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.texts p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgotp {
+    font-size: 12px;
+    color: #0073e6;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+form button {
+    padding: 12px;
+    width: 100%;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.buttons button {
+    flex: 1;
+    padding: 10px;
+    border-color: black;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+}
+.faceb{
+
+    background-color: white;
+}
+.google{
+    background-color: white;
+    
+}
+.lastt {
+    text-align: center;
+    font-size: 14px;
+}
+.lastt a {
+    color: #0073e6;
+
+}
+.image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
